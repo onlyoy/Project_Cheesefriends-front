@@ -53,6 +53,6 @@ React를 사용한 첫 번째 프로젝트로 React와 조금은 가까워질 �
 <br/>
 <h3>📚 Skill set 📚</h3>
 <ul>
-   <li>FrontEnd : JavaScript, jquery, ajax</li>
+   <li>FrontEnd : JavaScript, jquery, React</li>
    <li>BackEnd : SpringFramework, ApacheTomcat, MySQL</li>
 </ul>
