@@ -1,4 +1,3 @@
-[파이널프로젝트(최종).pdf](https://github.com/onlyoy/Project_Cheesefriends-front/files/11857012/default.pdf)# Project_Cheesefriends
 **학생, 교사, 학부모 모두가 교육에만 집중할 수 있는 서비스**
 
 1. 얼굴인식 출석체크로 출결 확인시간을 줄여 수업의 효율을 높임
