@@ -1,0 +1,137 @@
+.wrap {
+    margin: 0 5%;
+}
+.subject {
+    margin:0 0 30px;
+}
+.subject .sub {
+    width:200px;
+    height:40px;
+    background-color:#fff;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-right:1px solid #ddd;
+}
+.subject .sub:first-child {
+    border-left:1px solid #ddd;
+}
+.subject .sub:hover {
+    font-weight:900;
+    color:#fac463;
+}
+.subject .btnActive {
+    background-color: #fac463;
+    color: #fff;
+    box-shadow: 0 0 5px 1px #e8e8e8;
+    font-weight: 700;
+    border: none;
+}
+.subject .btnActive:hover {
+    color:#fff;
+    font-weight:700;
+}
+
+.options {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    border:1px solid #bdbdbd;
+    border-radius: 3px;
+    width:75px;
+    height:35px;
+    padding:0 10px;
+    font-size:0.9em;
+    background: url(../../../../public/img/sortIcon.png) no-repeat 86% 50% ;
+    background-size:8px;
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+}
+.search > select::-ms-expand {
+    display: none;
+}
+.excelBtn > label > div,
+.excelBtn > button {
+    height:40px;
+    color:#7f7f7f;
+    border:1px solid #ddd;
+    /* background-color: #fff9e6; */
+    background:none;
+    width:40px;
+    border-radius: 10px;
+    margin-left:10px;
+    font-weight: 500;
+    font-size: 1.6em;
+    line-height: 35px;
+
+}
+.excelBtn > label {
+    position:relative;
+}
+.excelBtn > label > input {
+    display : none;
+}
+.excelBtn > label > div {
+
+    position: absolute;
+    left: -45px;
+    top: -28px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.6em;
+}
+.excelBtn > button {
+    padding-left:3px;
+    padding-bottom:3px;
+    font-size: 1.7em;
+}
+
+.content {
+    margin:40px 0 ;
+    width:100%;
+}
+.content thead tr th {
+    text-align: center;
+    font-weight: 600;
+    height:40px;
+    background-color: #fff9e6;
+}
+
+.content thead tr th:nth-child(1) {width:5%;}
+.content thead tr th:nth-child(2) {width:15%;}
+.content thead tr th:nth-child(3) {width:20%;}
+.content thead tr th:nth-child(4) {width:20%;}
+.content thead tr th:nth-child(5) {width:20%;}
+.content thead tr th:nth-child(6) {width:20%;}
+.content tbody tr {
+    border-bottom:1px solid #eee;
+}
+.content tbody tr td {
+    text-align: center;
+    height:50px;
+}
+.content .gradeInput {
+    text-align: center;
+    height:40px;
+    border-radius: 10px;
+
+}
+.content .border {
+    border:1px solid #eee;
+}
+
+.updateBtn {
+    height:40px;
+    color:#fff;
+    background-color: #FAC463;
+    width:120px;
+    border-radius: 10px;
+    margin-left:10px;
+    font-weight: 600;
+    font-size: 0.9em;
+    display:block;
+    margin:0 auto;
+}

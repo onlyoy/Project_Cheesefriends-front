@@ -1,0 +1,12 @@
+.react-datepicker__close-icon::after {
+    background-color: #fac463 !important;
+}
+.react-datepicker-wrapper {
+    width:70% !important;
+}
+.react-datepicker__input-container  > input {
+    letter-spacing: 2.5px;
+}
+.react-datepicker__close-icon {
+    right:-72px !important;
+}

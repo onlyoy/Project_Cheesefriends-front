@@ -1,0 +1,132 @@
+.lecwritemain {
+    width: 1200px;
+    height: 500px;
+    margin: 40px 220px 0 auto;
+    align-items: center;
+    font-size: 18px;
+}
+.lecmainh2 {
+    font-size: 2em;
+    color: #434343;
+    font-weight: bold;
+}
+
+.inputtitle, .inputsubject {
+    margin-left: 30px;
+    margin-right: 69px;
+    font-size: 18px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    width: 200px;
+    margin-top: 8px;
+}
+
+
+.subjectCode {
+    margin-left: 60px;
+    font-size: 17px;
+    border: none;
+    border-bottom: 2px solid lightgray;
+}
+.file {
+    margin-left: 60px;
+}
+
+.lecontent {
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 900px;
+    height: 314px;
+    line-height: 1.5;
+}
+
+.regdate {
+    margin-left: 42px;
+    font-size: 17px;
+    border: none;
+    border-bottom: 2px solid lightgray;
+}
+
+.inputwriter {
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 18px;
+    border: none;
+}
+
+.ck-blurred {
+    height: 200px;
+}
+
+.ck-blurred:active {
+    height: 200px;
+}
+
+.btnwrapper {
+    text-align: right;
+    margin-top: 6px;
+    margin-right: -455px;
+}
+.btnwrappera{
+    text-align: right;
+    margin-top: 26px;
+    margin-right: -510px;
+}
+.inputfile {
+    margin-top: 12px;
+    margin-left: 25px;
+}
+.resetbtn, .submitbtn {
+    width: 100px;
+    height: 42px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.submitbtn {
+    background-color: #fac463;
+    border-radius: 4px;
+    color: white;
+}
+.submitbtn>a {
+    font-weight: bold;
+    color: white;
+}
+.submitbtn>a:hover {
+    color: #fac463;
+}
+
+.submitbtn:hover {
+    border: 2px solid #fac463;
+    background-color: white;
+    color: #444;
+}
+.resetbtn:hover {
+    border: 2px solid #f0f0f0;
+    background-color: white;
+    color: #444;
+}
+
+.edumain {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.educontent{
+    margin-top: 16px;
+    width: 878px;
+    height: 300px;
+    border: 1px solid lightgray;
+}
+
+.efile {
+
+    margin-top: 16px;
+}

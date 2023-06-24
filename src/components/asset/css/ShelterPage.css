@@ -1,0 +1,94 @@
+.shelterPageWrap {
+    display: flex;
+    justify-content: flex-start;
+    margin:50px auto 0;
+    width:1200px;
+}
+.shelterContentWrap {
+    width : 80%;
+    display : flex;
+    justify-content : center;
+    border-left:1px solid #ddd;
+}
+.playSideMenu {
+    background:none;
+}
+.playSideMenu > ul {
+    margin:0 auto 15px;
+}
+.playSideMenu > ul::before {
+    background:none;
+}
+.playSideMenu > ul > li > a::before {
+    background: none;
+}
+.playSideMenu > ul > li > a {
+    color:#434343;
+    font-size:1.2em;
+    letter-spacing: -1px;
+    padding-left:0px;
+    left:70px;
+}
+.playBtnActive {
+    background-color:#fac56357;
+
+    position:relative;
+}
+.playBtnActive > a {
+    color:#ff6b3f !important;
+    font-weight: 600;
+}
+.playBtnActive::after {
+    position:absolute;
+    right:0;
+    top:0;
+    content:'';
+    width:4px;
+    height:49px;
+    display: inline-block;
+    background-color:#fac463;
+}
+.playbtn {
+    width:200px;
+    padding:10px 0;
+    background-color: #FAC463;
+    border-radius:10px;
+    margin-left:0px;
+    color:#fff;
+    font-size:1.2em;
+    height:60px;
+}
+.divCenter {
+    margin : 0 auto 30px;
+    text-align: center;
+}
+.playInfoWrap {
+    margin-top:80px;
+    background-color: #FAC463;
+}
+.playInfoWrap .playInfo {
+    display:flex !important;
+    
+    
+}
+.InfoTxt {
+    margin-left:30px;
+    margin-top: 15%;
+}
+.InfoTxt > h2 {
+    font-size:2em;
+    font-weight: 600;
+    line-height:1.2;
+    margin-top: 30px;
+    margin-bottom:30px;
+    text-align: center;
+}
+.InfoTxt > p {
+    line-height:2;
+    text-align: center;
+}
+
+
+
+
+

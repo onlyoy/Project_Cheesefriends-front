@@ -1,0 +1,139 @@
+* {
+    font-family: 고딕, arial;
+}
+.eduinfolist {
+    width: 1200px;
+    height: 500px;
+    margin: 140px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-0 {
+    box-shadow: inset 0px 5px 10px 0 rgba(121, 121, 121, 0.08);
+    background-color: #FFEBB4;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.eduwrapper:hover {
+    border: 3px solid #fbca73;
+}
+
+
+
+.item-1, .item-2 {
+    margin-left: 30px;
+    box-shadow: inset 0px 5px 10px 0 rgba(121, 121, 121, 0.08);
+    background-color: #FFEBB4;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.isAnotherSpecialItem:hover {
+    border: 2px solid #fbca73;
+}
+
+.isYetAnotherSpecialItem:hover {
+    border: 2px solid #fbca73;
+}
+
+.item-3 {
+    margin-top: 250px;
+    margin-left: -961px;
+    box-shadow: inset 0px 5px 10px 0 rgba(121, 121, 121, 0.08);
+    background-color: #FFEBB4;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.item-3:hover {
+    border: 2px solid #fbca73;
+}
+
+.item-4 {
+    margin-top: 250px;
+    margin-left: 31px;
+    box-shadow: inset 0px 5px 10px 0 rgba(121, 121, 121, 0.08);
+    background-color: #FFEBB4;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.item-4:hover {
+    border: 2px solid #fbca73;
+}
+
+
+.item-5 {
+    margin-top: 247px;
+    margin-left: 30px;
+    box-shadow: inset 0px 5px 10px 0 rgba(121, 121, 121, 0.08);
+    background-color: #FFEBB4;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.item-5:hover {
+    border: 2px solid #fbca73;
+}
+.item-5>.edubtn {
+    margin-top: 32px;
+}
+
+.eduwritebtn {
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    background: #fbca73;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.eduwritebtn:hover {
+    border: 2px solid #fbca73;
+    background: #fff;
+    color: #434343;
+}
+
+.eduinfotitle::before {
+    margin-left: -53px;
+}
+.eduinfotitle {
+    font-weight: 500;
+}
+
+.navwrapper {
+    display: flex;
+    margin-top: -100px;
+    margin-left: 85px;
+}
+.educontentwrapper{
+    display: flex;
+    margin-top: 50px;
+    margin-left: -47px;
+
+}
+
+.cardbtn{
+    width: 295px;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 80px;
+    background-color: white;
+    color: #434343;
+    height: 38px;
+    margin-left: -5px;
+    border-radius: 8px;
+}
+.cardbtn>a {
+    font-size: 1em;
+    font-weight: bold;
+    color: #434343;
+}
+
+.cardbtn>a:hover {
+    color: #ff6b3f;
+}
+
+.item-2:hover {
+    background-color: #FFEBB4;
+}

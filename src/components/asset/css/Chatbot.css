@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+
+.myform {
+    /* padding: 15px 25px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* 투명도 : https://hype4.academy/tools/glassmorphism-generator */
+.wrapper,
+.loginform {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 360px;
+    max-width: 100%;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.loginform {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.loginform p {
+    padding: 15px 25px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.chatbox {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 317px;
+    width: 280px;
+    overflow: auto;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+
+.chat-button {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    z-index: 999;
+}
+
+.chat-button img {
+    width: 40px;
+    height: 40px;
+}
+
+.usermsgwrite {
+    flex: 1;
+    border-radius: 21px;
+    /* border: 1px solid #ff9800; */
+    border: 1px solid #989898;
+    background-color: #fff;
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.name {
+    border-radius: 4px;
+    border: 1px solid #ff9800;
+    padding: 2px 8px;
+}
+
+.submitmsg,
+.enter {
+    background: #F9FA9B;
+    color: #222;
+    padding: 4px 10px;
+    font-size: 21px;
+    font-weight: bold;
+    border-radius: 21px;
+    border: none;
+    cursor: pointer;
+}
+
+.error {
+    color: #ff0000;
+}
+
+.menu {
+    padding: 10px 30px;
+    display: flex;
+    color: #fff;
+}
+
+.menu p.welcome {
+    flex: 1;
+}
+
+.welcome {
+    color: darksalmon;
+    text-align: center;
+}
+
+.msgln {
+    margin: 0 0 5px 0;
+}
+
+.msgln span.left-info {
+    color: orangered;
+}
+
+.msgln span.chat-time {
+    color: #666;
+    font-size: 60%;
+    vertical-align: super;
+}
+
+.msgln b.user-name,
+.msgln b.user-name-left {
+    font-weight: bold;
+    background: #546e7a;
+    color: white;
+    padding: 2px 4px;
+    font-size: 90%;
+    border-radius: 4px;
+    margin: 0 5px 0 0;
+}
+
+.msgln b.user-name-left {
+    background: orangered;
+}
+
+.usermsg,
+.botmsg {
+    display: inline-block;
+    background-color: #B4E4FF;
+    color: #666;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 0.3em;
+    padding: 8px 8px 8px 8px;
+    /* (위, 오른쪽, 아래, 왼쪽 순임) */
+    text-align: left;
+    max-width: 70%;
+    margin-bottom: 2px;
+}
+
+.usermsg {
+    background-color: antiquewhite;
+    color: #333;
+}
+
+.botmsgContainer {
+    display: flex;
+    align-items: center;
+}
+
+.botmsg {
+    margin-right: 5px;
+    background-color: #F9FA9B;
+}
+
+.translate {
+background: white;
+color: #222;
+padding: 4px 10px;
+font-size: 21px;
+font-weight: bold;
+border-radius: 21px;
+border: none;
+cursor: pointer;
+}
+
+.translate>svg {
+    color: skyblue;
+}
+
+.voiceInput {
+    background: white;
+}

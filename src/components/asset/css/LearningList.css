@@ -1,0 +1,66 @@
+* {
+    font-family: 고딕, arial;
+}
+.learninglist{
+    width: 1200px;
+    height: 500px;
+    margin: 150px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.learnh2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #434343;
+    margin-left: 33px;
+}
+
+.learnBtn, .taskBtn, .qnabtn {
+    width: 214px;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 9px;
+    background-color: white;
+    color: #434343;
+    height: 34px;
+}
+.learnBtn:hover {
+    border-right: 2px solid #fac463;
+    background-color: #fac56357;
+    color: #ff6b3f;
+}
+
+.searchbtn:hover {
+    border-right: 2px solid #fac463;
+    background-color: #fac56357;
+    color: #ff6b3f;
+    
+}
+.taskBtn:hover {
+    border-right: 2px solid #fac463;
+    background-color: #fac56357;
+    color: #ff6b3f;
+    
+}
+.qnabtn:hover {
+    border-right: 2px solid #fac463;
+    background-color: #fac56357;
+    color: #ff6b3f;
+    
+}
+.empty-row {
+    height: 36.5px;
+}
+
+.reply {
+    background: #f0f0f0;
+    font-weight: bold;
+    color: #EA6818;
+}
+
+.replya>a{
+    padding-left: 10px;
+    font-weight: bold;
+    color: #EA6818;
+}

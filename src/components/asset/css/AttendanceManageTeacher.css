@@ -1,0 +1,207 @@
+.attendance-manage-teacher-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.attendanceNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+}
+
+.attendanceNav ul {
+  display: flex;
+  list-style: none;
+}
+
+.attendanceNav li {
+  margin-right: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  background-color: transparent;
+  transition: background-color 0.2s ease;
+}
+
+.attendanceNav li.active,
+.attendanceNav li:hover {
+  background-color: #80735e;
+  color: white;
+}
+
+.table-container {
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: #555;
+  overflow: auto;
+  height: 550px;
+
+}
+
+
+.table-container table td,
+.table-container table th {
+  padding: 4px;
+  vertical-align: middle;
+}
+
+
+.attendanceTeacherTh {
+  height: 50px;
+  color: #555;
+  border-bottom: 2px solid #ccc;
+}
+
+.attendance-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.Attbutton {
+  width: 58px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  background: #80735e;
+  color: #fff;
+  box-shadow: 0 2px 8px -1px rgba(21, 25, 36, 0.32);
+  transition: transform 0.44s ease, box-shadow 0.44s ease;
+  margin: 1px;
+  margin-top: 5px;
+}
+
+.Attbutton.active {
+  background-color: #80735e;
+}
+
+.Attbutton:not(.active) {
+  background-color: #aaa191;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 1rem 0;
+}
+
+.pagination li {
+  cursor: pointer;
+}
+
+.pagination li.active a,
+.pagination li:hover a {
+  color: #80735e;
+}
+
+.Attbutton {
+  width: 58px;
+  --background: #80735e;
+  --shadow: 0 2px 8px -1px rgba(21, 25, 36, 0.32);
+  --shadow-hover: 0 4px 20px -2px rgba(21, 25, 36, 0.5);
+  --font-size: 14px;
+  --duration: 0.44s;
+  --move-hover: -4px;
+  --font-shadow: var(--font-size);
+  padding: 10px 15px;
+  line-height: var(--font-size);
+  border-radius: 10px;
+  display: block;
+  font-size: var(--font-size);
+  letter-spacing: 0.5px;
+  background: var(--background);
+  color: #fff;
+  box-shadow: var(--shadow);
+  transform: translateY(var(--y)) translateZ(0);
+  transition: transform var(--duration) ease, box-shadow var(--duration) ease;
+  margin: 1px;
+  margin-top: 5px;
+}
+
+.Attbutton div {
+  display: flex;
+  overflow: hidden;
+  text-shadow: 0 var(--font-shadow) 0 #fff;
+}
+
+.Attbutton div span {
+  display: block;
+  backface-visibility: hidden;
+  font-style: normal;
+  transition: transform var(--duration) ease;
+  transform: translateY(var(--m)) translateZ(0);
+
+}
+
+.Attbutton div span:nth-child(1) {
+  transition-delay: 0.05s;
+}
+
+.Attbutton div span:nth-child(2) {
+  transition-delay: 0.1s;
+}
+
+.Attbutton div span:nth-child(3) {
+  transition-delay: 0.15s;
+}
+
+.Attbutton div span:nth-child(4) {
+  transition-delay: 0.2s;
+}
+
+.Attbutton div span:nth-child(5) {
+  transition-delay: 0.25s;
+}
+
+.Attbutton div span:nth-child(6) {
+  transition-delay: 0.3s;
+}
+
+.Attbutton div span:nth-child(7) {
+  transition-delay: 0.35s;
+}
+
+.Attbutton div span:nth-child(8) {
+  transition-delay: 0.4s;
+}
+
+.Attbutton div span:nth-child(9) {
+  transition-delay: 0.45s;
+}
+
+.Attbutton div span:nth-child(10) {
+  transition-delay: 0.5s;
+}
+
+.Attbutton div span:nth-child(11) {
+  transition-delay: 0.55s;
+
+}
+
+.Attbutton:hover {
+  --y: var(--move-hover);
+  --shadow: var(--shadow-hover);
+}
+
+.Attbutton:hover span {
+  --m: calc(var(--font-size) * -1);
+
+}
+
+.Attbutton.reverse {
+  --font-shadow: calc(var(--font-size) * -1);
+
+}
+
+.Attbutton.reverse:hover span {
+  --m: calc(var(--font-size));
+
+}

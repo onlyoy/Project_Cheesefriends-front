@@ -1,0 +1,185 @@
+/* 공통 */
+.wrap {
+    width:80%;
+    margin:0 auto 30px;
+}
+.wrap > h2 {
+    font-size:2.2em;
+    font-weight:900;
+    margin-bottom:30px;
+}
+.topContentWrap {
+    margin-bottom:30px;
+    border-radius: 3px;
+}
+.subInputBox {
+    display: flex;
+    flex-flow:wrap;
+    background: #ffc1070a;
+    padding: 20px 10px 20px 20px;
+    box-shadow: 2px 4px 5px 1px #ddd;
+    border-top: 10px solid #fac463;
+}
+.InputBox {
+    display:flex;
+    align-items: center;
+    width:50%;
+    /* border:1px solid #FAC463; */
+}
+.InputBox > span {
+    /* background-color: #FAC463;
+    color:#fff; */
+    font-weight: 600;
+    width:25%;
+    height:50px;
+    /* text-align: center; */
+    line-height:49px;
+}
+.InputBox > input {
+    margin-right:5%;
+}
+.InputBox > p,
+.InputBox > div,
+.InputBox > input,
+.InputBox .selectBox{
+    width:70%;
+    height:40px;
+    padding:0 20px;
+    border:1px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.InputBox > div {
+    display:flex;
+    align-items: center;
+    justify-content: start;
+}
+.InputBox > div > input {
+    width:100%;
+    height:30px;
+}
+.datalistAlign .selectBox {
+    padding:0;
+}
+.datalistAlign .selectBox > input {
+    padding:0 20px;
+}
+.btnWrap {
+    text-align: right;
+}
+.btn {
+    width:80px;
+    padding:10px 0;
+    background-color: #FAC463;
+    border-radius:10px;
+    margin:30px 0 20px;
+    color:#fff;
+    font-size:0.9em;
+    height:40px;
+}
+/* 과목입력 과목리스트 */
+.subjectList {
+    table-layout: fixed;
+    width: 100%;
+}
+.subjectList > thead > tr {
+    border-bottom:1px solid #777;
+    height:50px;
+}
+.subjectList > thead > tr > th,
+.subjectList > tbody > tr > td  {
+    text-align: center;
+    font-size:0.9em;
+}
+.subjectList > thead > tr > th {
+    font-weight: 700;
+    font-size:0.9em;
+}
+.subjectList > thead > tr > th:last-child {
+    width:11%;
+}
+.subjectList > tbody > tr {
+    height:50px;
+    border-bottom:1px solid #eee;
+}
+.subjectList > tbody > tr > td .Edit,
+.subjectList > tbody > tr > td .detail,
+.subjectList > tbody > tr > td .Del,
+.subjectList > tbody > tr > td .ok,
+.subjectList > tbody > tr > td .no {
+    display:block;
+    width:40px;
+    border-radius: 5px;
+    color:#fff;
+    height:20px;
+    font-size:0.75em;
+    font-weight: 500;
+}
+.subjectList > tbody > tr > td .Edit {
+    background: none;
+    color: #376efa;
+    line-height:19px;
+    margin-right:5px;
+    font-size:1.3em;
+}
+.subjectList > tbody > tr > td .detail {
+    background-color: #fac463;
+    line-height:19px;
+    margin-right:5px;
+}
+.subjectList > tbody > tr > td .Del {
+    background: none;
+    color: #e80000;
+    font-size:1.3em;
+}
+.subjectList > tbody > tr > td .ok {
+    background-color: #fac463;
+    margin-right:5px;
+}
+.subjectList > tbody > tr > td .no {
+    background-color: #e80000;
+}
+.subjectList > tbody > tr > td > input,
+.subjectList > tbody > tr > td > div > input {
+    text-align: center;
+    width:95%;
+    margin:0 auto;
+    height:40px;
+}
+.subjectList > tbody > tr > td > div > input {
+    padding-left:17px;
+}
+/* 수정버튼클릭 시 테두리 */
+.changeData {
+    border:1px solid #ddd;
+    border-radius: 10px;
+}
+
+/* 테이블 컬럼 개별 custom */
+.subjectList > tbody > tr > td:nth-last-child(1) {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    top:15px;
+}
+
+
+/* 강의시간추가 입력폼 custom */
+.InputBox .selectCustom {
+    padding:0 20px 0 14px;
+}
+.selectCustom > select {
+    border:none;
+    width:100%;
+}
+.InputBox > p {
+    padding : 0 20px;
+    line-height:39px;
+}
+.InputBox .dayTime {
+    width: 70%;
+    padding: 0 16px 0 20px;
+    font-size: 1.0em;
+}
+
+
