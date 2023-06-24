@@ -7,7 +7,7 @@
 4. 쪽지기능을 통해 원활한 소통과 개인번호 교환의 부담해소
    
 --- 아래 PDF를 통해 프로젝트 내용 상세 확인이 가능합니다 ---
-[Cheesefriends 프로젝트 소.pdf](https://github.com/onlyoy/Project_Cheesefriends-front/files/11857013/default.pdf)
+[Cheesefriends 프로젝트 소개.pdf](https://github.com/onlyoy/Project_Cheesefriends-front/files/11857013/Cheesefriends.pdf)
 
 
 <br/><br/>
