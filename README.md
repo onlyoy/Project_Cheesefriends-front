@@ -1,4 +1,4 @@
-# Project_Cheesefriends
+[파이널프로젝트(최종).pdf](https://github.com/onlyoy/Project_Cheesefriends-front/files/11857012/default.pdf)# Project_Cheesefriends
 **학생, 교사, 학부모 모두가 교육에만 집중할 수 있는 서비스**
 
 1. 얼굴인식 출석체크로 출결 확인시간을 줄여 수업의 효율을 높임
@@ -6,10 +6,9 @@
 3. 플랫폼을 활용해 성적, 출결 확인으로 학습상황 모니터링 가능
 4. 쪽지기능을 통해 원활한 소통과 개인번호 교환의 부담해소
    
-[Uploading 파이널프로젝트(최종).pdf…]()
 --- 아래 PDF를 통해 프로젝트 내용 상세 확인이 가능합니다 ---
+[Cheesefriends 프로젝트 소.pdf](https://github.com/onlyoy/Project_Cheesefriends-front/files/11857013/default.pdf)
 
-[Cheesefriends 프로젝트 소개.pdf](https://github.com/onlyoy/Project_Busybee/files/11622914/_.10_._.pdf)
 
 <br/><br/>
 <h3>📚 Summary 📚</h3>
